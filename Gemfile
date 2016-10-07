@@ -5,6 +5,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.7.1'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.15'
+# Use Devise for authorisation
+gem 'devise'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -47,5 +49,5 @@ end
 
 group :test do
   gem 'rspec-rails'
-  gem 'capybara' 
+  gem 'capybara'
 end
